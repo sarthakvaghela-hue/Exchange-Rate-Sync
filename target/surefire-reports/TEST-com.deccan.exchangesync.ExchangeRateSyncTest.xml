@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.deccan.exchangesync.ExchangeRateSyncTest" time="0.27" tests="15" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\JAVA\exchange-rate-sync\target\test-classes;E:\JAVA\exchange-rate-sync\target\classes;C:\Users\Sarthak\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Sarthak\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Sarthak\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Sarthak\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Sarthak\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Sarthak\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Sarthak\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Sarthak\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\Sarthak\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\Sarthak\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\Sarthak\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\Sarthak\AppData\Local\Temp\surefire14638228169842755169\surefirebooter-20260106115116410_3.jar C:\Users\Sarthak\AppData\Local\Temp\surefire14638228169842755169 2026-01-06T11-51-16_287-jvmRun1 surefire-20260106115116410_1tmp surefire_0-20260106115116410_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="com.deccan.exchangesync.ExchangeRateSyncTest"/>
+    <property name="surefire.test.class.path" value="E:\JAVA\exchange-rate-sync\target\test-classes;E:\JAVA\exchange-rate-sync\target\classes;C:\Users\Sarthak\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Sarthak\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Sarthak\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Sarthak\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Sarthak\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Sarthak\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Sarthak\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Sarthak\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\Sarthak\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\Sarthak\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\Sarthak\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sarthak"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-09-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\JAVA\exchange-rate-sync"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Sarthak\AppData\Local\Temp\surefire14638228169842755169\surefirebooter-20260106115116410_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19+36-2238"/>
+    <property name="user.name" value="Sarthak"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Users\Sarthak\.cursor\extensions\oracle.oracle-java-25.0.0\nbcode\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\Sarthak\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Sarthak\AppData\Local\Temp\"/>
+    <property name="java.version" value="19"/>
+    <property name="user.dir" value="E:\JAVA\exchange-rate-sync"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Sarthak\AppData\Local\Microsoft\WindowsApps;C:\Users\Sarthak\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sarthak\AppData\Roaming\npm;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-19\bin;C:\Program Files\gradle-8.13\bin;C:\Program Files\maven-mvnd-1.0.2-windows-amd64\bin;;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.9\bin;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;c:\Users\Sarthak\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Sarthak\AppData\Local\Microsoft\WindowsApps;C:\Users\Sarthak\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sarthak\AppData\Roaming\npm;C:\Users\Sarthak\AppData\Local\Coursier\data\bin;C:\Program Files\Java\jdk-19\bin;C:\Users\Sarthak\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\Sarthak\AppData\Local\PowerToys\DSCModules\;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19+36-2238"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="apiFailureDoesNotCorruptLocalState" classname="com.deccan.exchangesync.ExchangeRateSyncTest" time="0.167"/>
+  <testcase name="syncIsIdempotentAcrossMultipleRuns" classname="com.deccan.exchangesync.ExchangeRateSyncTest" time="0.014"/>
+  <testcase name="partialRemoteUpdateDoesNotDeleteExistingRates" classname="com.deccan.exchangesync.ExchangeRateSyncTest" time="0.006"/>
+  <testcase name="baseCurrencyChangeForcesFullSync" classname="com.deccan.exchangesync.ExchangeRateSyncTest" time="0.005"/>
+  <testcase name="identicalRemoteDataDoesNotChangeTimestamp" classname="com.deccan.exchangesync.ExchangeRateSyncTest" time="0.004"/>
+  <testcase name="readOnlyFileDoesNotGetCorrupted" classname="com.deccan.exchangesync.ExchangeRateSyncTest" time="0.005"/>
+  <testcase name="fullSyncDoesNotMergeWhenBaseCurrencyChanges" classname="com.deccan.exchangesync.ExchangeRateSyncTest" time="0.004"/>
+  <testcase name="initialSyncCreatesLocalFile" classname="com.deccan.exchangesync.ExchangeRateSyncTest" time="0.003"/>
+  <testcase name="incrementalSyncPreservesExistingRates" classname="com.deccan.exchangesync.ExchangeRateSyncTest" time="0.003"/>
+  <testcase name="apiTimeoutDoesNotModifyLocalState" classname="com.deccan.exchangesync.ExchangeRateSyncTest" time="0.004"/>
+  <testcase name="nullRemoteRatesDoesNotOverwriteLocalState" classname="com.deccan.exchangesync.ExchangeRateSyncTest" time="0.004"/>
+  <testcase name="repeatedSyncProducesDeterministicFileContent" classname="com.deccan.exchangesync.ExchangeRateSyncTest" time="0.011"/>
+  <testcase name="failedWriteDoesNotCorruptExistingFile" classname="com.deccan.exchangesync.ExchangeRateSyncTest" time="0.005"/>
+  <testcase name="emptyRemoteRatesDoNotOverwriteLocalState" classname="com.deccan.exchangesync.ExchangeRateSyncTest" time="0.004"/>
+  <testcase name="corruptLocalFileFailsFast" classname="com.deccan.exchangesync.ExchangeRateSyncTest" time="0.007"/>
+</testsuite>
