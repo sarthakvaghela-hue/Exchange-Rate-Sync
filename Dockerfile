@@ -2,12 +2,10 @@ FROM maven:3.9.6-eclipse-temurin-17
 
 WORKDIR /app
 
-# Pre-fetch dependencies for faster runs
 COPY pom.xml .
-RUN mvn -q -B dependency:go-offline
+RUN mvn -B dependency:resolve
 
-# Copy rest of the project
 COPY . .
+RUN chmod +x run_tests.sh
 
-# Default to an interactive shell
-CMD ["bash"]
+ENTRYPOINT ["./run_tests.sh"]
